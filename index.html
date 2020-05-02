@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript - Input/Output</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>JavaScript Calculator</h1>
+   
+   <div id="main">
+    <div class="calc-container">
+      <div class="calc-output">
+        0
+      </div>
+      <div class="calc-input-row1">
+        <div class="ac">
+          <button class="ac-btn" onclick="handleAllCancelButton();">AC</button>
+        </div>
+        <div class="neg-pos">
+         <button class="neg-pos-btn" onclick="handleNegPosButton();">+/-</button>
+        </div>
+        <div class="percentage">
+          <button class="percentage-btn" onclick="handlePercentageButton();">%</button>
+        </div>
+        <div class="division">
+          <button class="division-btn" onclick="handleDivisionButton();">&divide;</button>
+        </div>
+      </div>
+
+      <div class="calc-input-row2">
+        <div class="seven">
+          <button class="seven-btn" onclick="handleSevenButton();">7</button>
+        </div>
+        <div class="eight">
+          <button class="eight-btn" onclick="handleEightButton();">8</button>
+        </div>
+        <div class="nine">
+          <button class="nine-btn" onclick="handleNineButton();">9</button>
+        </div>
+        <div class="multiply">
+            <button class="multiply-btn" onclick="handleMultiplyButton();">&times;</button>
+          
+        </div>
+      </div>
+
+      <div class="calc-input-row3">
+        <div class="four">
+            <button class="four-btn" onclick="handleFourButton();">4</button>
+
+        </div>
+        <div class="five">
+            <button class="five-btn" onclick="handleFiveButton();">5</button>
+        </div>
+        <div class="six">
+            <button class="six-btn" onclick="handleSixButton();">6</button>
+
+        </div>
+        <div class="subtract">
+            <button class="subtract-btn" onclick="handleSubtractButton();">&minus;</button>
+        </div>
+      </div>
+
+      <div class="calc-input-row4">
+        <div class="one">
+            <button class="one-btn" onclick="handleOneButton();">1</button>
+
+        </div>
+        <div class="two">
+            <button class="two-btn" onclick="handleTwoButton();">2</button>
+
+        </div>
+        <div class="three">
+            <button class="three-btn" onclick="handleThreeButton();">3</button>
+
+        </div>
+        <div class="add">
+            <button class="add-btn" onclick="handleAddButton();">&plus;</button>      
+        </div>
+      </div>
+
+      <div class="calc-input-row5">
+          <div class="zero">
+            <button class="zero-btn" onclick="handleZeroButton();">0</button>      
+
+          </div>
+          <div class="period">
+              <button class="period-btn" onclick="handlePeriodButton();">&#x2e;</button>
+          </div>
+          <div class="equal">
+              <button class="equal-btn" onclick="handleEqualButton();">&equals;</button>            
+          </div>
+        </div>
+    </div>
+  </div> <!--end of main div-->
+
+  <footer>
+  <h3>Developed by Kevin Blount</h3>
+  <p>Adapted from MacOSX Calculator</p>
+  </footer>
+  
+        
+    <script src="script.js"></script>
+  </body>
+</html>
