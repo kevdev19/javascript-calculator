@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/codesandbox-app/static-template.git"
   },
-  "keywords": [],
-  "author": "Ives van Hoorne",
+  "keywords": ["HTML", "CSS", "JavaScript"],
+  "author": "Kevin Blount",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/codesandbox-app/static-template/issues"
