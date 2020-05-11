@@ -6,7 +6,9 @@ Created By: Kevin Blount
 
 Design adapted from MacOSX calculator app
 
-Image Example: ./assets/calc-img.png
+Image Example: 
+
+<img src="assets/calc-img.png">
 
 # RESOURCES USED
 
