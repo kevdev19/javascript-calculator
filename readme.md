@@ -8,7 +8,7 @@ Design adapted from MacOSX calculator app
 
 Image Example: 
 
-<img src="assets/calc-img.png">
+<img src="assets/javascript-calc.png">
 
 # RESOURCES USED
 
