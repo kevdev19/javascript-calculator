@@ -98,6 +98,8 @@ const handleAddButton = () => {
 };
 
 const handleZeroButton = () => {
+  let outputDiv = document.getElementById("calc-output-num");
+  outputDiv.textContent = 0;
   console.log("zero btn was clicked");
 };
 
