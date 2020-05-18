@@ -10,6 +10,10 @@ button activity
 -AC button clears calc output div
 */
 
+let outputList = [];
+let numList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+let operatorList = ["/", "*", "-", "+"];
+
 const handleOutputDiv = event => {
   //helper function that will handle number
   //output
@@ -34,6 +38,9 @@ const handleDivisionButton = () => {
 const handleSevenButton = () => {
   let outputDiv = document.getElementById("calc-output-num");
   outputDiv.textContent = 7;
+  let num = outputList.push(7);
+  console.log(num);
+  console.log(outputList);
   console.log("seven btn was clicked");
 };
 
@@ -98,6 +105,8 @@ const handleAddButton = () => {
 };
 
 const handleZeroButton = () => {
+  let outputDiv = document.getElementById("calc-output-num");
+  outputDiv.textContent = 0;
   console.log("zero btn was clicked");
 };
 
